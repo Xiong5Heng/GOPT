@@ -1,0 +1,7 @@
+/logs/
+/.idea/
+*.pyc
+*.csv
+logs
+log
+.vscode
