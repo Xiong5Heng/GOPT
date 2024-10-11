@@ -17,7 +17,7 @@ env:
 train:
   algo: PPO
   clip_param: 0.3
-  num_processes: 2    # the number of subprogresses, if debug, set to 1
+  num_processes: 128    # the number of subprogresses, if debug, set to 1
   num_steps: 5
   epoch: 1000
   last_epoch: 200  
