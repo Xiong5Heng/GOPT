@@ -68,13 +68,17 @@ python ts_test.py --config cfg/config.yaml --device 0 --ckp /path/to/checkpoint.
 ## Citation
 If you find this work useful, please consider citing:
 ```
-@article{xiong2024gopt,
-  title={GOPT: Generalizable Online 3D Bin Packing via Transformer-based Deep Reinforcement Learning},
+@ARTICLE{10694688,
   author={Xiong, Heng and Guo, Changrong and Peng, Jian and Ding, Kai and Chen, Wenjie and Qiu, Xuchong and Bai, Long and Xu, Jianfeng},
-  journal={IEEE Robotics and Automation Letters},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={GOPT: Generalizable Online 3D Bin Packing via Transformer-Based Deep Reinforcement Learning}, 
   year={2024},
-  publisher={IEEE}
-}
+  volume={9},
+  number={11},
+  pages={10335-10342},
+  keywords={Transformers;Robots;Three-dimensional displays;Generators;Environmental management;Deep reinforcement learning;Cameras;Manipulation planning;reinforcement learning;robotic packing},
+  doi={10.1109/LRA.2024.3468161}}
+
 ```
 
 ## License
