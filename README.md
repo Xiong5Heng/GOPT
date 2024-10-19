@@ -51,12 +51,12 @@ Note that most hyperparameters are in the `cfg/config.yaml` file, you can modify
 ## Evaluation
 
 ```bash
-python ts_test.py --config cfg/config.yaml --device 0 --ckp /path/to/checkpoint.pth 
+python ts_test.py --config cfg/config.yaml --device 0 --ckp /path/to/policy_step_final.pth
 ```
 
 If you want to visualize the packing process of one test, you can add the `--render` flag.
 ```bash
-python ts_test.py --config cfg/config.yaml --device 0 --ckp /path/to/checkpoint.pth --render
+python ts_test.py --config cfg/config.yaml --device 0 --ckp /path/to/policy_step_final.pth --render
 ```
 
 ## Demo
